@@ -1,0 +1,124 @@
+/* Card Title */
+.card-title {
+	text-align: left;
+	font-size: 16px;
+	color: #2e8cff;
+	text-decoration: none;
+	overflow: hidden;
+	display: -webkit-box;
+	line-height: 16px; /* fallback */
+	max-height: 32px; /* fallback */
+	-webkit-line-clamp: 1; /* number of lines to show */
+	-webkit-box-orient: vertical;
+  }
+  
+  /* Card Subtitle */
+  .card-subtitle {
+	text-align: left;
+	font-size: 14px;
+	color: #0aa33d;
+	text-decoration: none;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; /* number of lines to show */
+	-webkit-box-orient: vertical;
+  }
+  
+  /* Link Line */
+  .link-line {
+	text-decoration: none;
+  }
+  
+  /* Limit Characters */
+  .limit-char {
+	color: black;
+	text-align: justify;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* number of lines to show */
+	-webkit-box-orient: vertical;
+  }
+  
+  /* One Liner */
+  .one-liner {
+	text-align: justify;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; /* number of lines to show */
+	-webkit-box-orient: vertical;
+  }
+  
+  /* App Logo Spin Animation */
+  @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  /* Navbar Toggler */
+  .navbar-toggler {
+	border: 0 !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+  }
+  
+  /* Toggler Lines */
+  .toggler-icon {
+	width: 30px;
+	height: 3px;
+	background-color: #e74c3c;
+	display: block;
+	transition: all 0.2s;
+  }
+  
+  /* Space Between Toggler Lines */
+  .middle-bar {
+	margin: 5px auto;
+  }
+  
+  /* Toggler State When Navbar is Opened */
+  .navbar-toggler .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+	opacity: 0;
+	filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+  }
+  
+  /* Toggler State When Navbar is Collapsed */
+  .navbar-toggler.collapsed .top-bar {
+	transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+	opacity: 1;
+	filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+	transform: rotate(0);
+  }
+  
+  /* Color of Toggler When Collapsed */
+  .navbar-toggler.collapsed .toggler-icon {
+	background-color: #d2e82d;
+  }
+  
